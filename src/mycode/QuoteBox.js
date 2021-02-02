@@ -3,8 +3,6 @@ import {quotes} from "./quotes.json";
 
 const Quote = ({text,author}) => {
     
-
-    
     return(
         <div className="quotes">
             <p>"{text}"</p>
@@ -32,7 +30,7 @@ const QuoteBox = () => {
     return(
         <div className="quoteBox">
             <Quote text={quote} author={author} />
-            <button className="btn" onClick={handleNumber}>Cambia</button>
+            <button className="btn" onClick={handleNumber}>Change</button>
         </div>
     )
 }
